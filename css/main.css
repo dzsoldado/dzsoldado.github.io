@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+
+
+* {  /* reseting settings */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Open Sans Condensed', sans-serif;
+  min-height: 2000px;
+  color: #2c2727;
+  background-color: #f6f4f4;
+}
+
+hr{
+  width: 30px;
+  background-color: #ff7517;
+  height: 5px ;
+  border: 0px;
+  border-radius: 20%;
+  margin: auto;
+  margin-top: 20px !important;
+}
+#nav-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f6f4f4;
+  box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.171); 
+}
+#header-img{
+  padding: 2vh 0 1vh 0 ;  
+  height: 11vh;
+  width: auto;
+  transition: all .2s ease-in-out;  
+}
+#header-img:hover{
+  transform: scale(1.2);
+}
+#nav-bar{
+  margin: auto 0 auto auto; 
+}
+.nav-link{
+  color: #2c2727;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #2c2727;
+  text-decoration: none;
+  -webkit-transition: all .1s ease-in-out;  
+}
+a.nav-link:hover , a.nav-link:active {
+  color: #ff7517;
+}
+#main{
+  padding-top: 11vh;
+  width: 100%;
+}
+#intro{
+  display: flex;
+  background-color: #ff7517;
+  height: 89vh;
+}
+#intro-text{
+  width:50%;
+  color: #f6f4f4;
+  margin: auto;
+  padding-left: 10%; 
+  font-size: 26px; 
+}
+#intro-text h1{
+  padding-bottom: 5%;
+  font-size: 56px;
+}
+#intro-img{
+  width: 50%;
+  margin: auto ;
+  padding-left: 10%;
+}
+#overview, #features{
+  padding-top: 15vh;
+  padding-bottom: 10vh;
+  text-align: center;
+}
+#overview h1,#features H1{
+  font-size: 40px;
+}
+#functionalities{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 20%;
+  margin-left: 10%;
+  margin-top: 5% ;
+
+}
+
+.fun {
+  display: flex;
+  justify-self: start;
+  text-align: left;
+  margin-bottom: 10%;
+}
+.items{
+  padding: 0 25% 0 5%;
+  margin: auto;
+}
+
+.items h2 {
+  color: #ff7517;
+  font-size: 26px;
+}
+.items p{
+  font-size: 22px;
+}
+#functionalities img{
+  height: 80px;
+  width: auto;
+  margin: auto;
+}
+
+#features{
+  background-color: #fff;
+  min-height: 600px;
+}
