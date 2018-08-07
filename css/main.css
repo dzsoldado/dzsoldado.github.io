@@ -297,9 +297,15 @@ footer h4{
     margin: auto;
     text-align: center;
   }
+  #nav-mob{
+    width: 100%;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #2c272723;
+  }
   #menu{
     display: initial;
-    padding: 2vh 0 1vh 0 ;  
+    padding: 3vh 0 3vh 0 ;  
     height: 11vh;
     width: auto;
     float: right;
