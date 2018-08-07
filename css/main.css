@@ -19,6 +19,7 @@ hr{
   border-radius: 20%;
   margin: auto;
   margin-top: 20px !important;
+  margin-bottom: 10vh !important;
 }
 a{
   text-decoration: none;
@@ -108,7 +109,6 @@ header{
   background-color: #fff;
 }
 #video{
-  margin: 5% 0;
   width: 796px;
   height: 450px;
 }
@@ -118,13 +118,12 @@ header{
   grid-template-columns: 50% 50%;
   grid-row-gap: 20%;
   margin-left: 10%;
-  margin-top: 5% ;
 }
 .fun {
   display: flex;
   justify-self: start;
   text-align: left;
-  margin-bottom: 10vh;
+  padding-bottom: 10vh;
 }
 .items{
   padding: 0 25% 0 5%;
@@ -150,7 +149,7 @@ header{
 #cards{
   display: flex;
   justify-content: center;
-  margin: 5% 5%;
+  margin: 0 5%;
 }
 .card{
   width: 30%;
@@ -277,7 +276,7 @@ footer h4{
     margin-left: 5%;
   }
   #cards{
-    margin: 5% 1%;
+    margin: 0 1%;
   }
   .card{
     margin: auto 1%;
@@ -301,19 +300,48 @@ footer h4{
   #nav-bar{
     /*display: none;*/
   }
+  #overview, #features, #pricing, #contact{ 
+    padding-top: 12vh;
+    padding-bottom: 10vh;
+  }
+  #overview h1, #features h1, #pricing h1, #contact h1{
+    font-size: 40px;
+  }
   #functionalities{
     grid-template-columns: 100%;
   }
   .fun{
     margin-bottom: 5vh;
   }
+  .fun:nth-child(4){
+    margin-bottom: 0;
+  }
   #cards{
     flex-direction: column;
     align-items: center;
   }
   .card{
-    width: 90%;
-    margin-top: 2vh;
+    width: 80%;
+    margin-bottom: 5vh;
   }
-
+  .card:nth-child(3){
+    margin-bottom: 0;
+  }
+  #form{
+    margin: 1%;
+  }
+  .form-divs input , .form-divs textarea{
+    width: 90%;
+  }
+  .form-divs label{
+    padding: 0 5%;
+    text-align: left;
+    font-size: 26px;
+  }
+  #submit{
+    margin-left: 5%;
+  }
+  #form{
+    padding-bottom: 10vh;
+  }
 }
