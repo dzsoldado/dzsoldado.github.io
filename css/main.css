@@ -89,7 +89,7 @@ header{
   font-size: 56px;
 }
 #intro-img{
-  height: 70vh;
+  max-height: 50vh;
   width: auto;
   margin: auto ;
   padding: 0 5% 0 2.5%;
@@ -109,6 +109,8 @@ header{
 }
 #video{
   margin: 5% 0;
+  width: 796px;
+  height: 450px;
 }
 /*######################################*/
 #functionalities{
@@ -218,9 +220,7 @@ input,textarea,button{
   width: 60%;
   border: 0;
   border-radius: 3px;
-
 }
-
 .form-divs label{
   display: block;
   padding: 0 20%;
@@ -240,7 +240,6 @@ input,textarea,button{
 #submit:hover{
   box-shadow: 1px 1px 6px 1px #ff741760;
   background-color: #ff7517;
-
 }
 /*#######################################*/
 footer{
@@ -253,4 +252,68 @@ footer h5{
 footer h4{
   display: inline;
   float: right;
+}
+
+/*#######################################*/
+/*######### MEDIUM SCREENS ##############*/
+/*#######################################*/
+
+@media(max-width: 1024px){
+  #intro-img{
+    display: none;
+  }
+  #intro-text{
+    width: 80%;
+  }
+  #video{
+    width: 560px;
+    height: 315px;
+  }
+  .items{
+    padding: 0 5% 0 5%;
+    margin: auto;
+  }
+  #functionalities{
+    margin-left: 5%;
+  }
+  #cards{
+    margin: 5% 1%;
+  }
+  .card{
+    margin: auto 1%;
+  }
+}
+
+@media(max-width: 725px){
+  #intro-text{
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 24px; 
+  }
+  #intro-text h1{
+    padding-bottom: 10%;
+    font-size: 44px;
+  }
+  #video{
+    width: 350px;
+    height: 197px;
+  }
+  #nav-bar{
+    /*display: none;*/
+  }
+  #functionalities{
+    grid-template-columns: 100%;
+  }
+  .fun{
+    margin-bottom: 5vh;
+  }
+  #cards{
+    flex-direction: column;
+    align-items: center;
+  }
+  .card{
+    width: 90%;
+    margin-top: 2vh;
+  }
+
 }
