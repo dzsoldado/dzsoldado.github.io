@@ -305,13 +305,13 @@ footer h4{
     padding-bottom: 10vh;
   }
   #overview h1, #features h1, #pricing h1, #contact h1{
-    font-size: 40px;
+    font-size: 44px;
   }
   #functionalities{
     grid-template-columns: 100%;
   }
   .fun{
-    margin-bottom: 5vh;
+    margin-bottom: 0vh;
   }
   .fun:nth-child(4){
     margin-bottom: 0;
