@@ -246,17 +246,26 @@ input,textarea,button{
 }
 /*#######################################*/
 footer{
+  display: flex;
   padding: 5vh 5%;
 }
 footer h5{
   display: inline;
   margin-right: 2%;
 }
-footer h4{
-  display: inline;
-  float: right;
+#social{
+  margin: auto;
 }
-
+#links a:hover{
+  color: #ff7517;
+}
+#social a{
+  font-size: 26px;
+  color: #3e3939;
+}
+#social a:hover{
+  color: #ff7517;
+}
 /*#######################################*/
 /*######### MEDIUM SCREENS ##############*/
 /*#######################################*/
@@ -294,14 +303,18 @@ footer h4{
   #nav-bar{
     flex-direction: column;
     display: none;
-    margin: auto;
-    text-align: center;
+    margin:0;
+    padding: 2vh 0;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #2c272723;
+  }
+  #nav-bar a{
+    margin: 1vh 0;
   }
   #nav-mob{
     width: 100%;
-    border-bottom: solid;
-    border-width: 1px;
-    border-color: #2c272723;
+  
   }
   #menu{
     display: initial;

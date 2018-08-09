@@ -6,6 +6,7 @@
   <title>FOX - Force Operation X</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="img/favicon.ico">
+  <link href="https://unpkg.com/ionicons@4.3.0/dist/css/ionicons.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 </head>
 <body>
@@ -14,6 +15,7 @@
       <div id="nav-mob">
         <a href="#"><img src="img/fox.png" alt="FOX" id="header-img"></a>
         <img src="img/menu.svg" alt="FOX" id="menu">
+  
       </div>
       <nav id="nav-bar">
         <a href="#overview" class="nav-link">OVERVIEW</a>
@@ -135,14 +137,23 @@
     </div>
 
   </div>
+  
+
 
 
   <footer id="footer">
-    <a href=""><h5>Blog</h5></a>
-    <a href=""><h5>Forum</h5></a>
-    <a href=""><h5>Licences</h5></a>
-
-    <h4>&copy 2018, made by dzsoldado</h4>
+    <div id="links">
+      <a href="#"><h5>Blog</h5></a>
+      <a href="#"><h5>Forum</h5></a>
+      <a href="#"><h5>Licences</h5></a>
+    </div>
+    <div id="social">
+      <a href="https://twitter.com/"><i class="icon ion-logo-twitter"></i> </a>
+      <a href="https://www.facebook.com/"><i class="icon ion-logo-facebook"></i> </a>
+    </div>
+    <div id="copy">
+      <h4>&copy 2018 dzsoldado</h4>
+    </div>
   </footer>
 
   <script>
@@ -153,5 +164,6 @@
     document.querySelector('#menu')
         .addEventListener('click', classToggle);
   </script>
+
 </body>
 </html>
