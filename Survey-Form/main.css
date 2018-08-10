@@ -4,7 +4,7 @@
 body {
   font-family: 'Montserrat', sans-serif !important;
   text-align: center;
-  background-color: #e84545; 
+  background-color: #00adb5; 
   color: #222831;
 }
 #title{
@@ -91,7 +91,7 @@ body {
   margin: auto;
   color: #eeeeee;
   border-radius: 5px;
-  background-color: #e84545; 
+  background-color: #00adb5; 
   font-size: 16px;
   font-family: 'Montserrat', sans-serif !important;
   border: 0;
@@ -101,7 +101,7 @@ body {
 
 #submit:hover{
   box-shadow: 3px 2px 5px 3px #bbbbbbc9;
-  transform: translate(2px,-2px );
+  transform: translate(-1px,-1px );
 }
 
 footer{
