@@ -26,7 +26,7 @@
     </header>
   </div>
 
-  <div id="main">
+  <div id="main" >
     <div id="intro">
       <div id="intro-text">
         <h1>It’s All About Promoting Your Business</h1>
@@ -44,10 +44,10 @@
       <iframe id="video" src="https://www.youtube.com/embed/yZIummTz9mM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
-    <div id="features">
+    <div id="features" >
       <h1>FEATURES</h1>
       <hr>
-      <div id="functionalities">
+      <div id="functionalities" >
         <div class="fun">
           <img src="img/targeting.svg" alt="Precision">
           <div class="items">
@@ -79,10 +79,11 @@
       </div>
     </div>
 
-    <div id="pricing">
+    <div id="pricing" >
+
       <h1>PRICING</h1>
       <hr>
-      <div id="cards">
+      <div id="cards" data-aos="fade-up">
         <div class="card">
           <h3>Basic</h3>
           <h2><sup>$</sup>49<span class="month">/Month</span></h2>
@@ -128,7 +129,7 @@
           <input type="email" name="email" id="email" placeholder="Your email" required></input>
         </div>
         <div class="form-divs">
-          <label id="message" for="message">Message</label>
+          <label id="message-label" for="message">Message</label>
           <textarea  name="message"  id="message" placeholder="Your message here" required></textarea>
         </div>
   
@@ -163,7 +164,11 @@
     }
     document.querySelector('#menu')
         .addEventListener('click', classToggle);
+    document.querySelector('#nav-bar')
+    .addEventListener('click', classToggle);   
+
   </script>
+
 
 </body>
 </html>
