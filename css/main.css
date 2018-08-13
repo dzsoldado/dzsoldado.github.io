@@ -296,7 +296,9 @@ footer h5{
     margin: auto 1%;
   }
 }
-
+/*#######################################*/
+/*######### SMALL SCREENS ##############*/
+/*#######################################*/
 @media(max-width: 768px){
   #header{
     flex-direction: column;
@@ -310,24 +312,25 @@ footer h5{
     border-width: 1px;
     border-color: #2c272723;
   }
-  #nav-bar a{
-    margin: 1vh 0;
+  #header-img{
+    margin-left: 0; 
   }
   #nav-mob{
     width: 100%;
-  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   #menu{
     display: initial;
-    padding: 3vh 0 3vh 0 ;  
+    padding: 3vh 0 ;  
     height: 11vh;
     width: auto;
-    float: right;
+    float: left;
     cursor: pointer;
   }
   .nav-bar_show{
     display: flex !important;
-
   }
   #intro-text{
     padding-left: 1%;

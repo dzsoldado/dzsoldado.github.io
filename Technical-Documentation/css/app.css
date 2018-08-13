@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+* {  /* reseting settings */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  color:#616161;
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+hr{
+  background-color: #616161;
+  height: 3px ;
+}
+#navbar{
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f4f9f4;
+  overflow-x: hidden;
+  padding-top: 5px;
+  border-right: solid;
+}
+
+#navbar header{
+  color: #8aae92;
+  text-align: center;
+  font-size: 30px;
+  margin: 30px 0;
+
+}
+#navbar a{
+  display: block;
+  text-decoration: none;
+}
+#navbar h3{
+  color: #616161;
+  padding: 15px 10px 15px 30px;
+  font-size: 18px;
+}
+
+#main-doc{
+  margin-left: 300px; 
+  padding: 20px 20px 200px 20px;
+}
+
+.main-section{
+  margin: 30px;
+}
+.main-section header{
+  margin-bottom: 30px;
+}
+.main-section p{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.main-section ul{
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.main-section li{
+  margin-top: 20px;
+}
+
+code{
+  margin: 20px 60px;
+  padding: 15px;
+  background-color: rgb(243, 243, 243);
+  display: block;
+  white-space: pre;
+  word-break: normal;
+  word-wrap: normal;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+@media (max-width: 700px){
+  #navbar ul{
+    display: none;
+  }
+  #navbar{
+    position: relative;
+    width: 100%;
+    border-right:0;
+    border-bottom: solid;
+  }
+  #main-doc{
+    margin: 0;
+    font-size: 16px;
+  }
+  code{
+    font-size: 12px;
+    margin-left: 40px; 
+  }
+  .main-section{
+    margin: 20px 0 ;
+  }
+}
