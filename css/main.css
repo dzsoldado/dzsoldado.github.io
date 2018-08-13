@@ -302,11 +302,11 @@ footer h5{
 @media(max-width: 768px){
   #header{
     flex-direction: column;
+    padding: 0;
   }
   #nav-bar{
     flex-direction: column;
     display: none;
-    margin:0;
     padding: 2vh 0;
     border-top: solid;
     border-width: 1px;
@@ -317,6 +317,7 @@ footer h5{
   }
   #nav-mob{
     width: 100%;
+    margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
