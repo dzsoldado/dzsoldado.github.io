@@ -307,20 +307,21 @@ footer h5{
   #nav-bar{
     flex-direction: column;
     display: none;
+    margin:0;
     padding: 2vh 0;
     border-top: solid;
     border-width: 1px;
     border-color: #2c272723;
   }
   #header-img{
-    margin-left: 0; 
+    padding: 2vh 0 ;  
+
   }
   #nav-mob{
     width: 100%;
-    margin: 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding: 0 3%;
   }
   #menu{
     display: initial;
