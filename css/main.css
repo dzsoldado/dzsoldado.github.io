@@ -314,14 +314,12 @@ footer h5{
     border-color: #2c272723;
   }
   #header-img{
-    padding: 2vh 0 ;  
-
+    padding: 2vh 0 ; 
+    float: right;  
   }
   #nav-mob{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 3%;
+    padding: 0 5%;
   }
   #menu{
     display: initial;
