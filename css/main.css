@@ -314,8 +314,7 @@ footer h5{
     border-color: #2c272723;
   }
   #header-img{
-    padding: 2vh 0 ; 
-    float: right;  
+    display: none;  
   }
   #nav-mob{
     width: 100%;
