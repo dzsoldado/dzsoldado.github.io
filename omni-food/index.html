@@ -7,28 +7,32 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/grid.css">
   <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/queries.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
 
   
 </head>
 <body>
   <header>
-    <nav>
+    <nav >
       <div class="row">
         <img src="img/logo-white.png" alt="Omnifood logo" class="logo">
+        <img src="img/logo.png" alt="Omnifood black logo" class="logo-black">       
         <ul class="main-nav">
-          <li><a href="#">Food delivery</a></li>
-          <li><a href="#">How it works</a></li>
-          <li><a href="#">Our cities</a></li>
-          <li><a href="#">Sign up</a></li>
+          <li><a href="#features">Food delivery</a></li>
+          <li><a href="#how-it-works">How it works</a></li>
+          <li><a href="#cities">Our cities</a></li>
+          <li><a href="#form">Sign up</a></li>
         </ul>
+        <a class="mobile-nav-icon"><i class="icon ion-md-menu"></i></a>
       </div>
     </nav>
     <div class="hero-text-box">
       <h1>Goodbye junk food.<br> Hello super healthy meals.</h1>
-      <a class="btn btn-full" href="#">I’m hungry</a>
-      <a class="btn btn-ghost" href="#">Show me more</a>
+      <a class="btn btn-full scrollToPricing" href="#">I’m hungry</a>
+      <a class="btn btn-ghost scrollToStart" href="#">Show me more</a>
     </div>
   </header>
 
@@ -37,7 +41,7 @@
       <h2>Get food fast &mdash; not fast food.</h2>
       <p class="long-copy">Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>
     </div>
-    <div class="row">
+    <div class="row wp1">
       <div class="col span-1-of-4 box">
           <i class="icon ion-md-infinite big-icon"></i>
           <h3>Up to 365 days/year</h3>
@@ -238,7 +242,7 @@
     </div>
     <div class="row">
       <div class="col span-1-of-3">
-        <div class="plan-box">
+        <div class="plan-box wp2">
           <div>
             <h3>Premium</h3>
             <p class="plan-price">399$ <span>/ month</span></p>
@@ -289,7 +293,7 @@
           <div>
             <ul>
               <li><i class="icon ion-md-checkmark small-icon"></i>1 meal</li>
-              <li><i class="icon ion-md-checkmark small-icon"></i>Order from 8 am to 12 pm</li>
+              <li><i class="icon ion-md-checkmark small-icon"></i>Order from 8am to 12pm</li>
               <li><i class="icon ion-md-close small-icon"></i><del>Access to newest creations</del></li>
               <li><i class="icon ion-md-checkmark small-icon"></i>Free delivery</li>
             </ul>
@@ -302,5 +306,99 @@
       </div>           
     </div>
   </section>
+  <section id="form">
+    <div class="row">
+      <h2>We're happy to hear from you</h2>
+    </div>
+    <div class="row">
+      <form method="post" action="#" class="contact-form">
+        <div class"row">
+          <div class="col span-1-of-3">
+            <label for="name">Name</label>
+          </div>
+          <div class="col span-2-of-3">
+            <input type="text" name="name" id="name" placeholder="Your Name" required> 
+          </div>
+        </div>
+        <div class"row">
+          <div class="col span-1-of-3">
+            <label for="email">Email</label>
+          </div>
+          <div class="col span-2-of-3">
+            <input type="email" name="email" id="email" placeholder="Your Email" required> 
+          </div>
+        </div>
+        <div class"row">
+          <div class="col span-1-of-3">
+            <label for="name">How did you find us ?</label>
+          </div>
+          <div class="col span-2-of-3">
+            <select name="find-us" id="find-us" required>
+              <option value="friends" selected>Friends</option>
+              <option value="engine">Search Engine</option>
+              <option value="ad">Advertisement</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class"row">
+          <div class="col span-1-of-3">
+            <label >Newsletter ?</label>
+          </div>
+          <div class="col span-2-of-3">
+            <input type="checkbox" name="newsletter" id="newsletter" value="newsletter" selected><label for="newsletter">&nbsp; Would you like to subscribe to our newsletter ? </label>
+          </div>
+        </div>
+        <div class"row">
+          <div class="col span-1-of-3">
+            <label for="comment">Drop us a line</label>
+          </div>
+          <div class="col span-2-of-3">
+            <textarea name="comment" id="comment" placeholder="Your message"></textarea>
+          </div>
+        </div>
+        <div class"row">
+          <div class="col span-1-of-3">
+            <label >&nbsp;</label>
+          </div>
+          <div class="col span-2-of-3">
+            <input type="submit" name="submit" id="submit" value="Send it!">
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="row">
+      <div class="col span-1-of-2">
+        <ul class="footer-nav">
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">iOS App</a></li>
+          <li><a href="#">Android App</a></li>
+        </ul>
+      </div>
+      <div class="col span-1-of-2">
+        <ul class="social-links">
+          <li><a href="#"><i class="icon ion-logo-facebook"></i></a></li>
+          <li><a href="#"><i class="icon ion-logo-twitter"></i></a></li>
+          <li><a href="#"><i class="icon ion-logo-googleplus"></i></a></li>
+          <li><a href="#"><i class="icon ion-logo-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <p>
+        Copyright &copy; 2018 by OmniFood. All rights reserved
+      </p>
+    </div>
+  </footer>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/main.js"></script>
+
+
 </body>
 </html>

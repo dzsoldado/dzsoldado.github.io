@@ -15,10 +15,11 @@ html{
   font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden; 
 }
 
 .clearfix{
-  zoom:1;
+  zoom: 1;
 }
 .clearfix:after{
   content: ".";
@@ -143,7 +144,8 @@ a:active{
 /* BUTTONS */
 
 .btn:link,
-.btn:visited{
+.btn:visited,
+input[type=submit]{
   display: inline-block;
   padding: 10px 30px;
   font-weight: 300;
@@ -155,7 +157,8 @@ a:active{
 }
 
 .btn-full:link,
-.btn-full:visited{
+.btn-full:visited,
+input[type=submit]{
   background-color: #26A65B;
   margin-right: 15px;
 }
@@ -166,7 +169,9 @@ a:active{
 }
 
 .btn:hover,
-.btn:active{
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active{
   background-color: #208a4c;
 }
 
@@ -208,6 +213,16 @@ header{
   margin-top: 20px;
 }
 
+.logo-black{
+  display: none;
+  height: 50px;
+  width: auto;
+  float: left;
+  margin: 5px 0;
+}
+
+/* Main Nav */
+
 .main-nav{
   float: right;
   list-style: none;
@@ -234,6 +249,58 @@ header{
 .main-nav li a:active{
   border-bottom: 2px solid #26A65B;
 }
+
+/* Sticky Nav */
+
+.sticky{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.97);
+  box-shadow: 0 2px 2px rgb(245, 245, 245);
+  z-index: 9999;
+}
+
+.sticky .logo{
+  display: none;
+}
+
+.sticky .logo-black{
+  display: block;
+}  
+
+.sticky .main-nav{
+  margin-top: 18px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+  color: #555;
+  padding: 18px 0;
+}
+
+.sticky .mobile-nav-icon i{
+  color: #555;
+}
+
+.sticky .mobile-nav-icon {
+  margin-top: 10px;
+}
+
+/* Mobile Nav */
+
+.mobile-nav-icon{
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+.mobile-nav-icon i{
+  font-size: 200%;
+  color: #fff;
+}  
+
 
 /* ################################### */
 /* FEATURES */
@@ -450,4 +517,135 @@ cite img{
   font-size: 80%;
 }
 
+/* ################################### */
+/* CONTACT FORM */
+/* ################################### */
 
+.contact-form{
+  width: 60%;
+  margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea{
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #bbb;
+}
+
+textarea{
+  height: 200px;
+}
+
+input[type=checkbox]{
+  margin: 10px 5px 10px 0;
+}
+
+*:focus{
+  outline: none;
+}
+
+/* ################################### */
+/* FOOTER */
+/* ################################### */
+
+footer{
+  background-color: rgb(70, 70, 70);
+  padding: 50px 0;
+}
+
+.footer-nav{
+  list-style: none;
+  float: left;
+}
+
+.social-links{
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li,
+.social-links li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social-links li:last-child{
+  margin-right: 0;
+}
+
+.footer-nav li a{
+  transition: all 0.3s;
+  font-size: 80%;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+  text-decoration: none;
+  border: 0;
+  color: #bbb;
+}
+
+
+
+.social-links li a:link,
+.social-links li a:visited{
+  font-size: 120%;
+}
+
+.ion-logo-facebook,
+.ion-logo-twitter,
+.ion-logo-googleplus,
+.ion-logo-instagram{
+  transition: all 0.3s;
+}
+
+
+.ion-logo-facebook:hover,
+.ion-logo-facebook:active{
+  color: #3b5998;
+}
+.ion-logo-twitter:hover,
+.ion-logo-twitter:active{
+  color: #00aced;
+}
+.ion-logo-googleplus:hover,
+.ion-logo-googleplus:active{
+  color: #dd4b39;
+}
+.ion-logo-instagram:hover,
+.ion-logo-instagram:active{
+  color: #517fa4;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+  color: #fff;
+}
+
+footer p{
+  color: #bbb;
+  font-size: 80%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+/* ################################### */
+/* ########### ANIMATIONS ############ */
+/* ################################### */
+
+.wp1,
+.app-screen{
+  opacity: 0 ;
+  animation-duration: 1s;
+}
+.wp1.animated,
+.app-screen.animated{
+  opacity: 1 ;
+}
