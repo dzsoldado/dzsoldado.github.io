@@ -128,6 +128,29 @@
   .works-steps:last-of-type{
     margin-bottom: 20px;
   }
+
+  #map-box{
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  #form{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    z-index: 0;
+  }
+  
+  .map{
+    width: 100%;
+    height: 300px;
+    z-index: 0;
+    position: relative;
+  }
+  
+  
 }
 
 /* 0 to 480px */

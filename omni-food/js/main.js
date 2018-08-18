@@ -28,6 +28,7 @@ $(document).ready(function(){
     }
   })
 
+  
   $(".main-nav a").click(function(){
     $(".mobile-nav-icon ").click();
   })
@@ -98,4 +99,21 @@ $(document).ready(function(){
       }
     }
   });
+
+    // MAPS
+
+    var map = new GMaps({
+      div: '.map',
+      lat: 36.658647,
+      lng: 2.794790,
+      zoom: 12,
+    });
+
+    map.addMarker({
+      lat: 36.658647,
+      lng: 2.743774,
+      title: 'Fouka',
+      
+    });
+
 })
