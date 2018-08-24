@@ -5,30 +5,39 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>I Am Walid</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Cairo|Raleway:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Raleway:300,400" rel="stylesheet">
   <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
     body{
-      font-family: 'Raleway', sans-serif;
-      font-family: 'Cairo', sans-serif;
+      font-family: 'Comfortaa', sans-serif;
       font-size: 20px;
+      background-color: #f7f7f7;
     }
     h1{
-      font-size: 300%;
+      font-size: 400%;
       font-weight: 300;
-      line-height: 130%;
+      font-family: 'Comfortaa', cursive;
+      color: #f8b500;
+      margin: 100px 0;
     }
-    #main-content{
+    h2{
+      font-size: 300%;
+      font-weight: 400;
+    }
+    header,#projects{
       text-align: center;
-      color: rgb(41, 41, 41);
+      color: #393e46;
     }
-    #main-img{
-      display: block;
-      max-width: 100%;
-      margin: 0 auto;
+
+    #logo{
+      
     }
     #links{
       display: flex;
-
+      flex-wrap: wrap;
     }
 
   </style>
@@ -36,11 +45,13 @@
 
 
 <body>
-  <div id="main-content">
-    <img src="main.jpg" id="main-img"> 
-
-    <h1>My projects <> مشاريعي</h1>
+  <header>
+    <img src="logo.png" alt="walid" id="logo">
+  </header>
+  <section id="projects">
+    <h2>My projects </h2>
     <div id="links">
+      <a href="https://bookili.000webhostapp.com/" target="_blank">Bookili hotel booking service</a>
       <a href="omni-food/index.html" target="_blank">Omnifood Landing Page</a>
       <a href="fox/index.html" target="_blank">Fox Landing Page</a>
       <a href="survey-form/index.html" target="_blank">Survey Page</a>
@@ -50,10 +61,10 @@
       <a href="twitch/index.html" target="_blank">Wikipedia App</a>
 
 
-
     </div>
+  </section>
 
-  </div>
+ 
 
   
 </body>
