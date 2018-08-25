@@ -21,7 +21,7 @@ h2{
   font-weight: 300;
 }
 h3{
-  font-size: 160%;
+  font-size: 130%;
   font-weight: 400;
 
 }
@@ -86,11 +86,6 @@ header{
 
 #skills i{
   font-size: 400%;
-  transition: all 0.3s;
-}
-#skills i:hover{
-  color: #393e46;
-
 }
 
 .skills-table{
@@ -100,7 +95,6 @@ header{
   grid-row-gap: 100px;
   
 }
-
 
 .skills-table p{
   margin-bottom: 30px;
@@ -115,7 +109,6 @@ header{
 
 }
 
-
 .links{
   display: grid;
   grid-template-columns: 30% 30% 30%;
@@ -123,7 +116,6 @@ header{
   grid-row-gap: 50px;
   margin-top: 80px;
 
-  /* transform: translateY(-50%); */
 }
 
 .links img{
@@ -131,7 +123,6 @@ header{
   width: 100%;
   border-radius: 10px;
 }
-
 
 .container{
   position: relative;
@@ -175,6 +166,58 @@ header{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgb(141, 45, 226);
+  background-color: #8d2de2;
   border-radius: 10px;
+}
+.middle h3{
+  margin-bottom: 10px;
+  font-weight: 700;
+} 
+
+/* ############## contact ############## */
+
+#contact{
+  background: #8E2DE2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fdfdfd;
+  padding-bottom: 50px;
+}
+.logo-white{
+  height: 15vh;
+  width: auto;
+  margin-bottom: 70px;
+}
+.social{
+  margin-top: 100px;
+}
+.social a:link,
+.social a:visited{
+  color: #fdfdfd;
+  margin-right: 30px;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid #fdfdfd;
+  padding: 6px;
+  transition: .3s ease;
+
+}
+.social a:hover,
+.social a:active{
+  color: #4A00E0;
+  background-color: #fdfdfd;
+}
+
+.social a i{
+  font-size: 140%; 
+}
+
+.social a:last-child{
+  margin-right: 0;
+}
+.copy{
+  margin-top: 100px;
+  font-size: 80%;
 }
