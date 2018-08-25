@@ -7,7 +7,7 @@ body{
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   background-color: #fdfdfd;
-  height: 2000px; /* temporary */
+
 }
 
 /* ######### Reusable content ############*/
@@ -57,15 +57,28 @@ header{
 }
 .title{
   color: #393e46;
+  text-align: center;
 }
 .title h1{
   padding-bottom: 50px;
 }
 
+.down i{
+  color: #722de2;
+  font-size: 250%;
+  height: 100px;
+
+}
+.down{
+  padding-top: 10vh;
+  animation: updown 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
 /* ############## Desk ############### */
 
 #desk{
-  background: #8E2DE2;  /* fallback for old browsers */
+  background: #722de2;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
@@ -166,7 +179,7 @@ header{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #8d2de2;
+  background-color: #722de2;
   border-radius: 10px;
 }
 .middle h3{
@@ -177,7 +190,7 @@ header{
 /* ############## contact ############## */
 
 #contact{
-  background: #8E2DE2;  /* fallback for old browsers */
+  background: #722de2;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #fdfdfd;
@@ -206,7 +219,7 @@ header{
 }
 .social a:hover,
 .social a:active{
-  color: #4A00E0;
+  color: #722de2;
   background-color: #fdfdfd;
 }
 
@@ -220,4 +233,17 @@ header{
 .copy{
   margin-top: 100px;
   font-size: 80%;
+}
+
+
+
+/* ###### ANIMATIONS ####### */
+
+@keyframes updown{
+  0%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(10px);
+  }
 }

@@ -8,22 +8,31 @@
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-  <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+  <link href="https://unpkg.com/ionicons@4.4.1/dist/css/ionicons.min.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 
 </head>
 
 
 <body>
+  
+
   <header>
     <img src="img/logo.svg" alt="Walid" class="logo">
     <div class="title">
       <h1>Hey, I am Walid Benmouffok.</h1>
       <p>I'm a web developer and a software engineering student.<br>
-          I'm quietly confident, naturally curious, and perpetually improving my chops.
       </p>
+      
     </div>
+    <div class="down">
+      <a href="#skills"><i class="icon ion-ios-arrow-down"></i></a>
+    </div>
+ 
   </header>
+
+
+
   <section id="desk">
     <div class="row">
       <img src="img/27.svg" alt="desktop">
@@ -83,7 +92,7 @@
   <section id="work">
     <div class="row">
       <h2>Projects</h2>
-      <p>Here are a few projects, most of them are just for practice</p>
+      <p>Here are a few of my projects, which are mostly just for practice</p>
       
       <div class="links">
         <a href="https://bookili.000webhostapp.com/" target="_blank" class="container">
@@ -167,6 +176,11 @@
 
 
 
-  
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]',{
+      speed:1300,
+    });
+  </script>
 </body>
 </html>
