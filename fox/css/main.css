@@ -37,8 +37,8 @@ a{
 }
 header{
   display: flex;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   background-color: #f6f4f4;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.171); 
 }
@@ -85,7 +85,7 @@ header{
   width:50%;
   color: #f6f4f4;
   margin: auto;
-  padding-left: 5%; 
+  padding-left: 2.5%; 
   font-size: 26px; 
 }
 #intro-text h1{
@@ -94,10 +94,10 @@ header{
   text-transform: uppercase;
 }
 #intro-img{
-  max-height: 50vh;
+  height: 50vh;
   width: auto;
   margin: auto ;
-  padding: 0 5% 0 2.5%;
+  padding: 0 2.5% ;
 }
 /*######################################*/
 #overview, #features, #pricing, #contact{ 
