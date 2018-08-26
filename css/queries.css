@@ -36,6 +36,9 @@
   .row,.title{
     padding: 0 4%;
   }
+  .title h1{
+    padding-bottom: 30px;
+  }
   .skills-table{
     margin-top: 70px;
     grid-row-gap: 50px;
