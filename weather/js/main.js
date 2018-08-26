@@ -35,8 +35,8 @@ $(document).ready(function(){
       $("#weather").text(json.weather[0].main);
       $("#temp").text(json.main.temp+"°");
       $("#unit").text("C");
-      cel=json.main.temp+"°";
-      feh=(json.main.temp*1.8+38)+"°";
+      cel= Math.round(json.main.temp/10)*10 +"°";
+      feh= Math.round((json.main.temp*1.8+38)*10)/10 +"°";
       
       
 

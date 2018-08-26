@@ -1,14 +1,12 @@
-
-
 html { box-sizing: border-box; }
 html *,
 html *:before,
 html *:after { box-sizing: inherit; }
 
+
 body {
-  max-width: 80em;
-  padding : 5em 3em;
-  margin: 0 auto;
+  padding : 3em;
+  margin: 0 ;
   font-family: 'Lato', sans-serif;
   text-align: center;
   background: linear-gradient(to right, #0077aa, #19aaaa);
@@ -16,9 +14,9 @@ body {
 }
 
 h1{
-font-family: 'Kaushan Script', cursive;
-  margin-top : 1em;
-  margin-bottom : 2em;
+  font-family: 'Kaushan Script', cursive;
+  margin-top : 0.5em;
+  margin-bottom : 1.25em;
   color: #fff;
   font-weight: 400;
   font-size: 60px;
@@ -36,7 +34,17 @@ a {
   color: rgba(255,255,255,0.3);
   font-size: small;
 }
-p { margin: 1.375rem 0; }
+p { 
+  margin: 1.375rem 0;
+}
+#temperature{
+  cursor:pointer;
+}
+
+footer{
+  margin-top: 150px;
+}
+
 
 .icon {
   position: relative;
@@ -253,11 +261,6 @@ p { margin: 1.375rem 0; }
 }
 
 
-footer{
-  padding-top: 150px;
-  
-}
-
 /* Animations */ 
 
 @keyframes spin {
@@ -320,4 +323,8 @@ footer{
   }
 }
 
-
+@media only screen and (max-width: 1023px){
+  footer{
+    margin-top: 50px;
+  }
+}
