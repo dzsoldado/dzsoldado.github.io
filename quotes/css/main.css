@@ -1,9 +1,9 @@
 body {
   color: white;
   font-family: 'Raleway', sans-serif;
-  font-size : 13px;
+  font-size : 16px;
   background: -webkit-linear-gradient(bottom right,#304352,#162851);
-            
+  min-height: 100vh;    
             
             
 }
@@ -34,7 +34,6 @@ a:hover{
 .share {
   margin-top : 10px;
 }
-/************* /Quote Box *****************/
 
 
 
@@ -53,5 +52,22 @@ a:hover{
   color : black;
 }
 
-/************** /Buttons ***************/
  
+@media only screen and (max-width: 1023px){
+  .box {
+    margin: 10%;
+  }
+
+}
+@media only screen and (max-width: 768px){
+  .box {
+    margin: 10% 5%;
+  }
+  #quote-text {
+    font-size: 24px !important;
+  }
+  #quote-author {
+    font-size: 16px !important;
+    color: white;
+  }
+}
