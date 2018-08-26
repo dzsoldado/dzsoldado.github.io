@@ -6,7 +6,7 @@
 
 
 
-/* 1024px to 767px */
+/* 1024px to 1200px */
 @media only screen and (max-width: 1200px){
   .hero-text-box{
     width: 100%;
@@ -63,8 +63,8 @@
   }
 }
 
-/* 481px to 767px */
-@media only screen and (max-width: 767px){
+/* 480px to 768px */
+@media only screen and (max-width: 768px){
   body{
     font-size: 16px;  
   }

@@ -93,9 +93,7 @@ header{
 
 /* ############## Skills ############## */
 
-#skills{
-  min-height: 700px;
-}
+
 
 #skills i{
   font-size: 400%;
@@ -151,7 +149,7 @@ header{
 
 .middle{
   color: white;
-  font-size: 20px;
+  font-size: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -204,9 +202,7 @@ header{
 .social{
   margin-top: 100px;
 }
-.social a:link,
-.social a:visited{
-  color: #fdfdfd;
+.social a{
   margin-right: 30px;
   display: inline-block;
   width: 45px;
@@ -215,6 +211,10 @@ header{
   border: 2px solid #fdfdfd;
   padding: 6px;
   transition: .3s ease;
+}
+.social a:link,
+.social a:visited{
+  color: #fdfdfd;
 
 }
 .social a:hover,
