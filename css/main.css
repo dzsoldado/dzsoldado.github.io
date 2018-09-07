@@ -205,11 +205,11 @@ header{
 .social a{
   margin-right: 30px;
   display: inline-block;
-  width: 45px;
-  height: 45px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   border: 2px solid #fdfdfd;
-  padding: 6px;
+  padding: 7px;
   transition: .3s ease;
 }
 .social a:link,

@@ -52,7 +52,9 @@
   .social a{
     width: 35px;
     height: 35px;
-    padding: 4px;
+    padding: 5px;
+    border: 1px solid #fdfdfd;
+
   }
   .copy{
     margin-top: 60px;
