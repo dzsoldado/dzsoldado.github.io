@@ -8,13 +8,14 @@ body {
   padding : 3em;
   margin: 0 ;
   font-family: 'Lato', sans-serif;
-  text-align: center;
-  background: linear-gradient(to right, #0077aa, #19aaaa);
-   color : #fff;
+  text-align: center; 
+  color : #2aa9d2;
+  background: currentColor;
+  
 }
 
 h1{
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Yellowtail', cursive;
   margin-top : 0.5em;
   margin-bottom : 1.25em;
   color: #fff;
