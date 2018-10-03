@@ -205,8 +205,8 @@ header{
 .social a{
   margin-right: 30px;
   display: inline-block;
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   border: 2px solid #fdfdfd;
   padding: 7px;
@@ -224,7 +224,7 @@ header{
 }
 
 .social a i{
-  font-size: 140%; 
+  font-size: 110%; 
 }
 
 .social a:last-child{
