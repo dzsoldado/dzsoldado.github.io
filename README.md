@@ -1,4 +1,4 @@
 # dzsoldado.github.io
-### hello niwwa.
-** some shitty front ends **
+### some shitty front ends.
+
 
