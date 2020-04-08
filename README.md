@@ -1,4 +1,4 @@
 # dzsoldado.github.io
-### some shitty front ends.
+### some shitty front end projects
 
 
