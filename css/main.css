@@ -3,27 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  font-family: 'Raleway', sans-serif;
+html{
+  font-family: 'Raleway', Verdana, sans-serif;
+  font-display: swap ;
   font-size: 20px;
+}
+body{
   background-color: #fdfdfd;
-
 }
 
 /* ######### Reusable content ############*/
 
 h1{
-  font-size: 300%;
+  font-size: 4rem;
   font-weight: 300;
 }
 h2{
-  font-size: 260%;
+  font-size: 3rem;
   font-weight: 300;
 }
 h3{
-  font-size: 120%;
+  font-size: 1.5rem;
   font-weight: 400;
-
 }
 
 section{
@@ -41,7 +42,6 @@ section h2{
 }
 a{
   text-decoration: none;
-
 }
 
 
@@ -65,7 +65,7 @@ header{
 
 .down i{
   color: #722de2;
-  font-size: 250%;
+  font-size: 3rem;
   height: 100px;
 
 }
@@ -96,7 +96,7 @@ header{
 
 
 #skills i{
-  font-size: 400%;
+  font-size: 5rem;
 }
 
 .skills-table{
@@ -149,7 +149,7 @@ header{
 
 .middle{
   color: white;
-  font-size: 100%;
+  font-size: 1.25rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -207,32 +207,35 @@ header{
   display: inline-block;
   width: 40px;
   height: 40px;
-  border-radius: 50%;
-  border: 2px solid #fdfdfd;
-  padding: 7px;
-  transition: .3s ease;
-}
-.social a:link,
-.social a:visited{
-  color: #fdfdfd;
+
 
 }
-.social a:hover,
-.social a:active{
-  color: #722de2;
-  background-color: #fdfdfd;
-}
-
-.social a i{
-  font-size: 110%; 
-}
-
 .social a:last-child{
   margin-right: 0;
 }
+
+
+.social a i{
+  font-size: 1.5rem; 
+  transition: .3s ease;
+  color: #fdfdfd;
+  
+}
+.social a i:link,
+.social a i:visited{
+  color: #fdfdfd;
+  
+}
+.social a i:hover,
+.social a i:active{
+  color: #c8b6e5;
+}
+
+
+
 .copy{
   margin-top: 100px;
-  font-size: 80%;
+  font-size: 0.875rem;
 }
 
 
