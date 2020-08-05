@@ -149,7 +149,7 @@ header{
 
 .middle{
   color: white;
-  font-size: 1.25rem;
+  font-size: 1rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -203,11 +203,10 @@ header{
   margin-top: 100px;
 }
 .social a{
-  margin-right: 30px;
+  margin-right: 20px;
   display: inline-block;
   width: 40px;
   height: 40px;
-
 
 }
 .social a:last-child{
