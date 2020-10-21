@@ -1,2 +1,2 @@
 # dzsoldado.github.io
-### some shitty projects
+### Front-end mini projects
