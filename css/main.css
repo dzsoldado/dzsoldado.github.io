@@ -1,3 +1,10 @@
+:root{
+  --dark : #222;
+  --light: #FFF;
+  --a : #0eae57;
+  --b : #0c7475;
+  --green: #0eae57;
+}
 *{
   margin: 0;
   padding: 0;
@@ -9,7 +16,7 @@ html{
   font-size: 20px;
 }
 body{
-  background-color: #fdfdfd;
+  background-color: var(--light);
 }
 
 /* ######### Reusable content ############*/
@@ -44,7 +51,6 @@ a{
   text-decoration: none;
 }
 
-
 /* ############### Header ############### */
 
 header{
@@ -56,18 +62,16 @@ header{
   margin: 50px 0;
 }
 .title{
-  color: #393e46;
+  color: var(--dark);
   text-align: center;
 }
 .title h1{
   padding-bottom: 50px;
 }
-
 .down i{
-  color: #722de2;
+  color: var(--dark);
   font-size: 3rem;
   height: 100px;
-
 }
 .down{
   padding-top: 10vh;
@@ -75,12 +79,13 @@ header{
   animation-direction: alternate;
   animation-iteration-count: infinite;
 }
+
 /* ############## Desk ############### */
 
 #desk{
-  background: #722de2;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: var(--green);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, var(--a),var(--b));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, var(--a),var(--b)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   padding: 30px 0 0 0;
 }
@@ -88,30 +93,23 @@ header{
   max-width: 100%;
   max-height: 350px;
   width: auto;
-
 }
 
 /* ############## Skills ############## */
 
-
-
 #skills i{
   font-size: 5rem;
 }
-
 .skills-table{
   margin-top: 100px;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-row-gap: 100px;
-  
 }
-
 .skills-table p{
   margin-bottom: 30px;
   font-weight: 700;
 }
-
 
 /* ############## Work ############## */
 
@@ -119,22 +117,18 @@ header{
   border-top: 1px solid #eee;
   background-color: #fff;
 }
-
 .links{
   display: grid;
   grid-template-columns: 30% 30% 30%;
   grid-column-gap: 5%;
   grid-row-gap: 50px;
   margin-top: 80px;
-
 }
-
 .links img{
   max-width: 100%;
   width: 100%;
   border-radius: 10px;
 }
-
 .container{
   position: relative;
 }
@@ -146,7 +140,6 @@ header{
   transition: .3s ease;
   backface-visibility: hidden;
 }
-
 .middle{
   color: white;
   font-size: 1rem;
@@ -163,7 +156,6 @@ header{
   width: 100%;
   height: auto;
 }
-
 .container:hover .overlay {
   opacity: 1;
 }
@@ -177,7 +169,7 @@ header{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #722de2;
+  background-color: var(--green);
   border-radius: 10px;
 }
 .middle h3{
@@ -188,10 +180,10 @@ header{
 /* ############## contact ############## */
 
 #contact{
-  background: #722de2;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #fdfdfd;
+  background: var(--green);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, var(--a),var(--b));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, var(--a),var(--b)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: var(--light);
   padding-bottom: 50px;
 }
 .logo-white{
@@ -207,37 +199,27 @@ header{
   display: inline-block;
   width: 40px;
   height: 40px;
-
 }
 .social a:last-child{
   margin-right: 0;
 }
-
-
 .social a i{
   font-size: 1.5rem; 
   transition: .3s ease;
-  color: #fdfdfd;
-  
+  color: var(--light);
 }
 .social a i:link,
 .social a i:visited{
-  color: #fdfdfd;
-  
+  color: var(--light);
 }
 .social a i:hover,
 .social a i:active{
-  color: #c8b6e5;
+  color: #dbdbdb;
 }
-
-
-
 .copy{
   margin-top: 100px;
   font-size: 0.875rem;
 }
-
-
 
 /* ###### ANIMATIONS ####### */
 

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" viewBox="0 0 375 375"
+  height="375" version="1.0">
+  <defs>
+    <g id="a">
+      <path
+        d="M 127.671875 -102.902344 L 82.636719 -102.902344 L 82.636719 -33.777344 L 5.628906 -33.777344 L 5.628906 0 L 135.554688 0 L 135.554688 -33.777344 L 127.671875 -33.777344 Z M 127.671875 -102.902344" />
+    </g>
+    <g id="b">
+      <path
+        d="M 56.292969 -102.902344 L 11.257812 -102.902344 L 11.257812 -33.777344 L -2.25 -33.777344 L -2.25 0 L 64.175781 0 L 64.175781 -33.777344 L 56.292969 -33.777344 Z M 33.664062 58.542969 L 56.179688 36.027344 L 33.664062 13.511719 L 11.035156 36.027344 Z M 21.054688 51.789062 L 11.035156 61.695312 L 33.664062 84.214844 L 56.179688 61.695312 L 46.273438 51.789062 L 33.664062 64.285156 Z M 21.054688 51.789062" />
+    </g>
+    <g id="c">
+      <path
+        d="M 5.628906 -33.777344 L -2.25 -33.777344 L -2.25 0 L 50.664062 0 L 50.664062 -146.363281 L 5.628906 -146.363281 Z M 5.628906 -33.777344" />
+    </g>
+    <g id="d">
+      <path
+        d="M 50.664062 -102.902344 L 5.628906 -93.671875 L 5.628906 0 L 64.738281 0 L 73.179688 -25.332031 L 73.179688 58.769531 L 118.214844 45.597656 L 118.214844 -102.902344 Z M 50.664062 -33.777344 L 50.664062 -69.128906 L 73.179688 -69.128906 L 73.179688 -33.777344 Z M 50.664062 -33.777344" />
+    </g>
+  </defs>
+  <g fill="#FFF">
+    <use x=".071" y="251.114" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#a" xlink:type="simple"
+      xlink:actuate="onLoad" xlink:show="embed" />
+  </g>
+  <g fill="#FFF">
+    <use x="133.363" y="251.114" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#b" xlink:type="simple"
+      xlink:actuate="onLoad" xlink:show="embed" />
+  </g>
+  <g fill="#FFF">
+    <use x="195.28" y="251.114" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#c" xlink:type="simple"
+      xlink:actuate="onLoad" xlink:show="embed" />
+  </g>
+  <g fill="#FFF">
+    <use x="251.569" y="251.114" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#d" xlink:type="simple"
+      xlink:actuate="onLoad" xlink:show="embed" />
+  </g>
+</svg>
