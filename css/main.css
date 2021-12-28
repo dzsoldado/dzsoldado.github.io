@@ -4,6 +4,7 @@
   --a : #0eae57;
   --b : #0c7475;
   --green: #0eae57;
+  --green-opacity: #0eae57dd;
 }
 *{
   margin: 0;
@@ -164,7 +165,7 @@ header{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: var(--green);
+  background-color: var(--green-opacity);
   border-radius: 10px;
 }
 .middle h3{
